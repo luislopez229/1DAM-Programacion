@@ -13,7 +13,7 @@ public class Ejercicio9Tema3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Introduce un número positivo");
+        System.out.println("Introduce un nÃºmero positivo");
         double n = new Scanner(System.in).nextDouble();
 
         double s = 1;
@@ -25,7 +25,7 @@ public class Ejercicio9Tema3 {
                 s = 0.5 * (a + n / a);
 
                 if (Math.abs((s - a)) < 0.000001) {
-                    System.out.println("La raíz cuadrada aproximada es: " + s);
+                    System.out.println("La raÃ­z cuadrada aproximada es: " + s);
                     fin = true;
                 } else {
                     a = s;
@@ -33,7 +33,7 @@ public class Ejercicio9Tema3 {
             }
 
         } else {
-            System.out.println("No es un número positivo");
+            System.out.println("No es un nÃºmero positivo");
         }
     }
 
