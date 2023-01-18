@@ -13,7 +13,7 @@ public class Ejercicio5Tema3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("¿Cuántas piezas se pueden cazar hoy?");
+        System.out.println("Â¿CuÃ¡ntas piezas se pueden cazar hoy?");
         int total = new Scanner(System.in).nextInt();
         
         int suma = 0;
@@ -23,7 +23,7 @@ public class Ejercicio5Tema3 {
         System.out.println("--- Empezamos la caza");
         
         while(suma <= total && fin == false){
-            System.out.println("Introduzca el número de piezas cazadas");
+            System.out.println("Introduzca el nÃºmero de piezas cazadas");
             cazadas = new Scanner(System.in).nextInt();
   
             suma = suma + cazadas;
@@ -31,7 +31,7 @@ public class Ejercicio5Tema3 {
                     + " de "+total+" posibles.");
             
             if(suma >= total){
-                System.out.println("El número máximo de piezas ha "
+                System.out.println("El nÃºmero mÃ¡ximo de piezas ha "
                         + "sido excedido");
                 fin = true;
             }
